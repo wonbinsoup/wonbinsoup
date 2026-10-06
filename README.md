@@ -1,29 +1,44 @@
-<h1 align="center">Hi 👋, I'm Daniel W Kim</h1>
-<h3 align="center">Cybersecurity, focused on Cloud & App Security | CS @ Northeastern</h3>
+<h1 align="center">Hi, I'm Daniel</h1>
+<h3 align="center">Computer Science @ Northeastern University</h3>
+<h3 align="center">CS Student Focused on Cloud & Application Security</h3>
 
-- 🔭 I’m currently working on [IAM Privilege Escalation Scanner](https://github.com/wonbinsoup/IAM-Privilege-Escalation-Scanner)
+## 👋 About Me
 
-- 🌱 I’m currently learning **AWS Cloud Practitioner certification, cloud security fundamentals, and network security fundamentals**
+CS student building hands-on skills in cloud and application security, with a focus on IAM misconfigurations, privilege escalation, and web application vulnerabilities.
 
-- 👯 I’m looking to collaborate on **Cloud security tools and open-source security projects**
+Currently working toward my AWS Cloud Practitioner certification, and active in NUSecurity and NU CCDC. My interest in security started after my high school was hit by a ransomware attack — I wanted to understand how systems like that actually get compromised, which led me to start building and breaking things on my own.
 
-- 💬 Ask me about **Cloud security, IAM, or web app vulnerabilities**
+## 🛠️ Core Stack
 
-- 📫 How to reach me **kdaniel1324@gmail.com**
+**Languages**
+`Python` `Java` `SQL` `C` `Bash`
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1W0mmAOX5k-1Hd0itKBhloSeI3uZPOa5h/edit?usp=sharing&ouid=106036848154450995521&rtpof=true&sd=true](https://docs.google.com/document/d/1W0mmAOX5k-1Hd0itKBhloSeI3uZPOa5h/edit?usp=sharing&ouid=106036848154450995521&rtpof=true&sd=true)
+**Frameworks & Tools**
+`Flask` `SQLite` `Burp Suite` `CyberChef` `Git`
 
-- ⚡ Fun fact **Pierce the Veil is my favorite band**
+**Cloud & Infra**
+`AWS` `boto3` `Linux` `MongoDB` `Redis`
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/daniel-w-kim" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="daniel-w-kim" height="30" width="40" /></a>
-</p>
+## 💻 Selected Work
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+### 🔐 IAM Privilege Escalation Scanner
+`Python` • `boto3` • `AWS IAM`
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=wonbinsoup&show_icons=true&locale=en&layout=compact" alt="wonbinsoup" /></p>
+A CLI tool that scans AWS IAM users, roles, and groups for privilege escalation paths — permission combinations that let a low-privilege identity gain unauthorized admin access. Implements 10+ real escalation techniques sourced from Rhino Security Labs research, with severity classification and remediation steps for each finding.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=wonbinsoup&show_icons=true&locale=en" alt="wonbinsoup" /></p>
+Building this taught me that the real risk in IAM usually isn't one bad permission — it's dangerous *combinations*, like pairing `iam:PassRole` with `lambda:CreateFunction`, that let someone chain their way to admin access.
 
+→ [View Project](https://github.com/wonbinsoup/IAM-Privilege-Escalation-Scanner)
+
+### 🧪 Flask SQLi & XSS Lab
+`Python` • `Flask` • `SQLite` • `Burp Suite` • `CyberChef`
+
+A deliberately vulnerable Flask/SQLite web app built to demonstrate SQL injection and XSS (OWASP Top 10), then fixed using parameterized queries and Jinja2 auto-escaping. Used Burp Suite to intercept and manipulate HTTP requests and CyberChef to encode payloads, replicating a full exploitation-and-remediation workflow.
+
+→ [View Project](https://github.com/wonbinsoup/flask-sqli-xss-lab)
+
+## 📫 Reach Me
+
+[LinkedIn](https://linkedin.com/in/daniel-w-kim) · kdaniel1324@gmail.com
+
+⚡ Fun fact: Pierce the Veil is my favorite band.
