@@ -13,8 +13,6 @@ My interest in security started after my high school was hit by a ransomware att
 
 kdaniel1324@gmail.com · [Resume/Experience](https://docs.google.com/document/d/1W0mmAOX5k-1Hd0itKBhloSeI3uZPOa5h/edit?usp=sharing&ouid=106036848154450995521&rtpof=true&sd=true)
 
-Fun fact: Pierce the Veil is my favorite band.
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/daniel-w-kim" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="daniel-w-kim" height="30" width="40" /></a>
